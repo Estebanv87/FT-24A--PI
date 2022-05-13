@@ -1,0 +1,46 @@
+
+.landing {
+  background: #fafafa
+  url("https://images.pexels.com/photos/2062426/pexels-photo-2062426.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: row;
+    gap: 5rem;
+    justify-content: center;
+    align-items: center;
+  }
+  .landing_h1 {
+    height: 7vw;
+    text-align: center;
+    font-size: 1.5vw;
+    color: #1d0aed;
+    position: absolute;
+    top: 30%;
+    left: 34%;
+    font-family:'Times New Roman', Times, serif
+  }
+  
+  .landing_button {
+    padding: 2px;
+    margin: 2px;
+    width: 150px;
+    font-family: "Charm", cursive;
+    font-size: 19px;
+    border-radius: 5px;
+    border: 2px solid rgba(6, 20, 140, 0.911);
+    background-color: rgba(144, 144, 144, 0.703);
+    color: rgb(6, 20, 140, 0.911);
+    text-decoration: none;
+    cursor: pointer;
+    transition-duration: 0.4s;
+    position: absolute;
+    top: 51%;
+    left: 47%;
+  }
+  
+  .landing_button:hover {
+    background-color: white;
+    color: rgb(6, 20, 140, 0.911);
+  }

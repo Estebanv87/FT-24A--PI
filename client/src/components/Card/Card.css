@@ -1,0 +1,73 @@
+
+.card {
+    background-color: rgb(161, 202, 255);
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border-radius: 5%;
+    text-decoration: none;
+    width: 23vw;
+    height: 30vw;
+    margin-bottom: 8vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    transition: all 0.6s;
+    box-shadow: 5px 2px 15px 0px rgba(6, 20, 140, 0.911);
+  }
+  
+  .card_container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, min(25vw));
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .card_info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 8vw;
+  }
+
+  .card_info h3 {
+    font-size: 25px;
+    font-family: 'Charm', cursive;
+    color: rgb(32, 35, 44);;
+  }
+
+  .card_info2 h5 {
+    font-size: 13px;
+    font-family: 'Charm', cursive;
+    color: rgb(32, 35, 44);;
+  }
+
+  .card_img {
+    height: 16vw;
+    width: 80%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .card_button {
+    background-color: #142f43;
+    border-radius: 0.4vw;
+    width: 19vw;
+    height: 2vw;
+    color: white;
+    transition: all 0.4s;
+    cursor: pointer;
+    
+  }
+  
+  .card:hover {
+    opacity: 0.9;
+    background-color: rgb(255, 255, 255);
+    width: 23vw;
+    height: 30.5vw;
+  }

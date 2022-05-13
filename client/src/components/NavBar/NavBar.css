@@ -1,0 +1,50 @@
+.navbar {
+    background-color: rgb(161, 202, 255);
+    height: 4vw;
+  }
+  
+  .navbar_button1 {
+    font-size: 15px;
+    height: 28px;
+    width: 98px;
+    background-color: #142f43;
+    border-radius: 0.4vw;
+    color: aliceblue;
+    position: absolute;
+    top: 2.3%;
+    left: 24%;
+    cursor: pointer;
+    transition-duration: 0.4s;
+  }
+  
+  .navbar_button1:hover{
+    background-color: #1e486b;
+    border-radius: 0.4vw;
+    border-color: #476074;
+  }
+  
+  .navbar_button2 {
+    font-size: 15px;
+    height: 28px;
+    width: 160px;
+    background-color: #142f43;
+    border-radius: 0.4vw;
+    color: aliceblue;
+    position: absolute;
+    top: 2.3%;
+    left: 41%;
+    cursor: pointer;
+    transition-duration: 0.4s;
+  }
+  
+  .navbar_button2:hover{
+    background-color: #1e486b;
+    border-radius: 0.4vw;
+    border-color: #476074;
+  }
+  
+  .navbar_searchbar {
+    display: flex;
+    justify-content: space-around;
+    gap: 5rem;
+  }
